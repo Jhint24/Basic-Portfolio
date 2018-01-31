@@ -1,4 +1,84 @@
-header {
-color: blue
+body    {
+        background-image: url("../images/binding_dark.png");
+}
+header  {
+        background-color: #4aaaa5;
+        font-size: 35px;
+        font-family: 'Georgia', Times, "Times New Roman", serif;
+        color: #ffffff;
+        float: left;
+        padding: 35px;
+        margin-left: 155px;
+
+}
+
+.top   {
+        border-style: solid;
+        border-color: #cccccc;
+        border-bottom-width: 2px;
+        width: 100%;
+        background-color: #ffffff;
+        height: 105px;
+
+
+}
+
+#left  {
+        float: left;
+        padding: 10px;
+        color: 
+
+
+}
+
+#middle {
+        float: left;
+
+}
+
+#right  {    
+        float: left;
+
+}
+
+.section {
+        background-color: #ffffff;
+        margin-top: 100px;
+        margin-left: 155px;
+        width: 650px;
+        float: left;
+
+
+}
+
+h2      {
+        color: #4aaaa5;
+
+}
+
+.aside  {
+        float: left;
+        width: 270px;
+        background-color: #ffffff;
+
+
+}
+
+#logo1  {
+        float: left;
+}
+
+#logo2  {
+        float: left;
+
+}
+
+#logo3  {
+        float: left;
+
+}
+
+.footer {
+        float: left
 
 }
