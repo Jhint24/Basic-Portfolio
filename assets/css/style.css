@@ -1,5 +1,10 @@
+html    {
+        min-height: 100%;
+        position: relative;
+}
+
 body    {
-        background-image: url("../images/binding_dark.png");
+        background-image: url("../images/tileable_wood_texture.png");
 }
 header  {
         background-color: #4aaaa5;
@@ -13,6 +18,7 @@ header  {
 }
 
 .top   {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
         border-style: solid;
         border-color: #cccccc;
         border-bottom-width: 2px;
@@ -23,45 +29,91 @@ header  {
 
 }
 
-#left  {
+li      {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
         float: left;
-        padding: 10px;
-        color: 
+        border-right: 1px solid #cccccc;
+
+}
+
+li:last-child   {
+        border-right: none;
+
+}
+
+ul      {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        list-style-type: none;
+        margin-left: 0;
+        padding-right: 240px;
+        padding-top: 30px; 
+        overflow: hidden;
+        background-color: #ffffff;
+        float: right;
 
 
 }
 
-#middle {
-        float: left;
+li a    {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
 
-}
 
-#right  {    
-        float: left;
+
+
 
 }
 
 .section {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
         background-color: #ffffff;
         margin-top: 100px;
         margin-left: 155px;
         width: 650px;
+        height: 550px;
+        padding: 32px;
         float: left;
 
 
 }
 
 h2      {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
         color: #4aaaa5;
+        font-size: 35px;
+        border-bottom: 2px solid #cccccc;
+        padding-bottom: 35px;
+
+}
+
+img     {
+        float: left;
+        padding-top: 30px;
+        padding-right: 25px;
+        padding-bottom: 25px;
 
 }
 
 .aside  {
-        float: left;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        float: right;
         width: 270px;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 100px;
+        margin-right: 240px;
         background-color: #ffffff;
 
 
+}
+h3      {
+        margin-top: 30px;
+        color: #777777;
+        font-size: 24px;
+        line-height: 28px;
 }
 
 #logo1  {
@@ -79,6 +131,24 @@ h2      {
 }
 
 .footer {
-        float: left
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        color: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 90px;
+        background-color: #666666;
+        text-align: center;
+        border-top-width: 10px;
+        border-style: solid;
+        border-color: #4aaaa5;
+
+
+}
+
+footer  {padding-top: 35px;
+
+
 
 }
